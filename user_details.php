@@ -18,6 +18,6 @@ class user_details{
 }
 }
 
-$Obj = new user_details.();
+$Obj = new user_details();
 
 print $Obj->user_age("Alex", 2002);
