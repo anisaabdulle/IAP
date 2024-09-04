@@ -2,7 +2,7 @@
 
 require_once "user_details.php";
 
-$Obj = new user_details();
+$Obj =
 
 $arr = ["black", "white", "green", "blue"];
 
@@ -19,3 +19,9 @@ print "<BR>";
 print basename($_SERVER["PHP_SELF"]);
 print "<br>";
 
+if(file_exists("index")){
+    print "yes";
+
+}else {
+    print "no";
+}
