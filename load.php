@@ -17,7 +17,7 @@ function classAutoLoad($classname){
 spl_autoload_register('classAutoLoad');
 
 // Create instances of all classes
-    $ObjLayouts = new layouts();
+    $ObjLayouts = new layout();
     $ObjMenus = new menus();
     $ObjHeadings = new headings();
     $ObjCont = new contents();
